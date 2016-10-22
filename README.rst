@@ -31,6 +31,12 @@ Commands to run the app on the mac::
     $ seilriss
 
 
+Deployment
+==========
+
+    $ pip install fabric fabtools
+
+
 Raspberry Pi 3
 ==============
 

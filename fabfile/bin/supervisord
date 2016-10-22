@@ -1,0 +1,10 @@
+#!/home/pi/env/seilriss/bin/python
+
+
+import sys
+sys.argv[1:1] = ['-c', '/home/pi/etc/supervisord.conf']
+
+import supervisor.supervisord
+
+if __name__ == '__main__':
+    sys.exit(supervisor.supervisord.main())

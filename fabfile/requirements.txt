@@ -1,0 +1,3 @@
+seilriss==0.1.0
+supervisor
+--find-links packages

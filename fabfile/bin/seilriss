@@ -1,0 +1,12 @@
+#!/home/pi/env/seilriss/bin/python
+
+import os
+import sys
+import seilriss.ui
+
+os.putenv('SDL_FBDEV', '/dev/fb1')
+os.putenv('SDL_MOUSEDRV', 'TSLIB')
+os.putenv('SDL_MOUSEDEV', '/dev/input/touchscreen')
+
+if __name__ == '__main__':
+    sys.exit(seilriss.ui.run())
