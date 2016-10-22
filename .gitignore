@@ -1,0 +1,4 @@
+*.py[co]
+dist/
+src/seilriss.egg-info
+.DS\_Store
